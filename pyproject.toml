@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "api-service"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^2.0.0"
+pydantic = "^2.0.0"
+python-dotenv = "^1.0.0"
+apache-airflow = "^2.0.0"
+redis = "^4.0.2"
+google-cloud-redis = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
